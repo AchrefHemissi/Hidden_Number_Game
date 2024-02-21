@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(132, 128, 249);
+    background: linear-gradient(to right, rgb(183, 187, 238), rgb(144, 128, 249));
+}
+.container{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #392da8;
+    background: linear-gradient(to right, #5c5ec0,#2f2da8);
+    width: 500px;
+    height: 300px;
+    border-radius:  100px 5px 100px 5px;
+    box-shadow:  #7564d4 2px 2px 2px 2px;
+    vertical-align:middle;
+    text-align: center;
+    
+}
+span{
+    font-family: "Sixtyfour", sans-serif;
+    color: white;
+    font-size: large;
+}
+h1 {
+
+    font-family: "Sixtyfour", sans-serif;
+    color: #2d2fa8;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    vertical-align:middle;
+    margin-bottom: 30px;
+}
+
+
+#btn{ 
+    border-radius: 10px;
+    border : none;
+    background-color: #353594;
+    box-shadow:  0px 2px 12px #d4caff;
+    font-family: "Sixtyfour", sans-serif;
+    color : #f5f5f5;
+    font-size: 20px;
+    width: 140px;
+    height: 40px;
+    margin : 10px;
+}
+
+
+#btn:hover{
+    transform: scale(1.12);
+    transition: .5s ease-in-out;
+    background-color: #6565a2;
+    cursor:  pointer;
+    
+}
+#btn:not(:hover){
+    transform: scale(1);
+    transition: .5s ease-in-out;
+    cursor:  pointer;
+    
+}
+  
+label{
+    border : none;
+    font-family: "Sixtyfour", sans-serif;
+    color : #f5f5f5;
+    font-size: 20px;
+    width: 140px;
+    height: 40px;
+    margin : 10px;
+}
+label:hover{
+    color: #4ece3a;
+}
+
+
